@@ -1,0 +1,89 @@
+#social-links {
+    display: flex;
+    gap: 20px;
+    padding: 24px 0;
+}
+
+#social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.btn-social-links {
+    width: 74px;
+    height: 74px;
+    border: none;
+    border-radius: 15px;
+    border: 4px solid var(--stroke-color);
+    background: var(--container-color);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 5px var(--stroke-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.wrapper-button {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+
+.shadow-button {
+    width: 74px;
+    height: 74px;
+    border-radius: 15px;
+    background-color: var(--stroke-color);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+}
+
+.behance:hover {
+    background-color: #1769FF;
+}
+
+.dribble:hover {
+    background-color: #E74D89;
+
+}
+
+.linkedin:hover {
+    background-color: #007AB9;
+
+}
+
+.git img {
+    width: 69px;
+    height: 69px;
+}
+
+.git:hover {
+    background-color: #000000;
+
+}
+
+
+.btn-social-links:active {
+    transform: translateY(5px) translateX(5px);
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
+
+}
+
+.img-button {
+    width: 37px;
+    height: 37px;
+}
+
+.img-behance {
+    width: 43.41px;
+    height: 27.46px;
+}

@@ -1,0 +1,125 @@
+@import url('./global.css');
+@import url('./buttons.css');
+@import url('./scrollbar.css');
+@import url('./header.css');
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: var(--bg-url) no-repeat top center/cover;
+}
+
+@font-face {
+    font-family: 'Meutas';
+    src: url(../assets/fonts/Meutas-ExtraLight.otf) format('opentype');
+}
+
+#container {
+    width: 586px;
+    height: 742px;
+    background: var(--container-color);
+    border-radius: 28px;
+    border: 7px solid var(--stroke-color);
+    margin: 160px auto;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile {
+    margin: 30px 0;
+}
+
+span {
+    font-family: 'Meutas';
+    font-style: italic;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--text-color);
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.content {
+    background-image: url('../assets/Group-16.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: fill;
+    width: 191px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+#group-4 h2 {
+    font-family: 'Meutas';
+    color: var(--text-color);
+    text-align: center;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+    margin: 8px 18px 0 0;
+}
+
+/* #group-4 img {
+    height: 47px;
+    width: 197px;
+    margin-left: -100px;
+    margin-top: -40px;
+    position: absolute;
+
+}
+
+#container-blue {
+    width: 50px;
+    height: 18px;
+    border-radius: 4px;
+    background-color: #2151EC;
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 261px;
+}
+
+#group-3 p {
+    position: relative;
+    font-size: 9px;
+    margin-top: 4px;
+    color: var(--text-color-p);
+} */
+
+main p {
+    font-family: 'Meutas';
+    color: var(--text-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0.42px;
+    text-align: center;
+    margin: 20px 87px;
+}
+
+.about-me {
+    margin-top: -10px;
+}

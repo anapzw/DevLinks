@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/icon2.ico">
+    <title>DevLinks • Ana Beatriz</title>
+
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/scrollbar.css">
+</head>
+
+<body>
+    <main id="container">
+        <header class="container-top" id="container-top">
+            <div class="switch" onclick="toggleMode()">
+                <button id="switch-btn" class="">
+                    <img src="./src/assets/MoonStars.svg" alt="icone do tema" class="switch-button">
+                </button>
+            </div>
+            <div class="formas">
+                <div class="circulo green"></div>
+                <div class="circulo yellow"></div>
+                <button class="button-x">
+                    <img src="./src/assets/button-x.svg" id="button-x" class="teste">
+                </button>
+            </div>
+        </header>
+
+        <img src="./src/assets/foto-perfil.png" alt="Foto de perfil" width="185px" height="187px" id="profile">
+
+        <div class="textos">
+            <span>olá, sou a</span>
+            <h1>Ana Beatriz Lima</h1>
+            <div id="group-4" class="content">
+                <h2>UX/UI Designer </h2>
+                <!-- <img src="./src/assets/Group-16.png" class="icon-figma"> -->
+            </div>
+            <!-- <div id="group-3">
+                <div id="container-blue"></div>
+                <p>185 x 40</p>
+            </div> -->
+            <p class="about-me">Graduada em Design pela Universidade Ceuma e me especializando na área de UX/UI Design.
+                Atualmente, estou
+                embarcando também na jornada de aprimoramento em tecnologias web, com foco em me tornar uma especialista
+                em programação front-end.</p>
+        </div>
+
+        <div id="social-links">
+            <div class="wrapper-button">
+
+                <button id="social-media" class="btn-social-links behance">
+
+                    <a href="https://www.behance.net/anabls" target="_blank" id="link-behance">
+                        <img src="./src/assets/behance-icon.png" alt="Ícone Behance" id="behance" class="img-behance" />
+                    </a>
+                </button>
+                <div class="shadow-button">
+                </div>
+            </div>
+            <div class="wrapper-button">
+
+                <button class="btn-social-links dribble">
+                    <a href="https://dribbble.com/anabls" target="_blank" id="link-dribble">
+                        <img src="./src/assets/dribbble-icon.png" alt="Ícone Dribble" id="dribble" class="img-button" />
+                    </a>
+                </button>
+                <div class="shadow-button"></div>
+            </div>
+            <div class="wrapper-button">
+
+                <button class="btn-social-links linkedin">
+                    <a href="https://www.linkedin.com/in/ana-beatriz-lima-dev/" target="_blank" id="link-linkedin">
+                        <img src="./src/assets/linkedin-icon.png" alt="Ícone Linkedin" id="linkedin"
+                            class="img-button" />
+                    </a>
+                </button>
+                <div class="shadow-button"></div>
+            </div>
+            <div class="wrapper-button">
+
+                <button class="btn-social-links git">
+                    <a href="https://medium.com/@anabls" target="_blank" id="link-medium">
+                        <img src="./src/assets/medium-icon.png" alt="Ícone Github" id="github" />
+                    </a>
+                </button>
+                <div class="shadow-button"></div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
