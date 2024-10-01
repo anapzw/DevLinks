@@ -1,9 +1,9 @@
 <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="MoonStars">
-<path id="Vector" d="M11.8125 6.125V3.5" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M13.125 4.8125H10.5" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M9.1875 1.3125V3.0625" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M10.0625 2.1875H8.3125" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M11.8507 8.34536C10.9917 8.58622 10.0841 8.59412 9.22112 8.36823C8.35811 8.14234 7.57076 7.6908 6.93996 7.06C6.30916 6.42919 5.85762 5.64185 5.63173 4.77883C5.40584 3.91581 5.41373 3.00822 5.6546 2.14926C4.80775 2.38497 4.03743 2.83844 3.42037 3.46451C2.80331 4.09058 2.36105 4.8674 2.13764 5.71758C1.91423 6.56776 1.91747 7.46164 2.14704 8.31019C2.3766 9.15873 2.82448 9.93232 3.44606 10.5539C4.06764 11.1755 4.84123 11.6234 5.68977 11.8529C6.53831 12.0825 7.43219 12.0857 8.28238 11.8623C9.13256 11.6389 9.90937 11.1966 10.5354 10.5796C11.1615 9.96253 11.615 9.19221 11.8507 8.34536Z" stroke="white" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector" d="M11.8125 6.125V3.5" stroke="black" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M13.125 4.8125H10.5" stroke="black" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M9.1875 1.3125V3.0625" stroke="black" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M10.0625 2.1875H8.3125" stroke="black" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M11.8507 8.34536C10.9917 8.58622 10.0841 8.59412 9.22112 8.36823C8.35811 8.14234 7.57076 7.6908 6.93996 7.06C6.30916 6.42919 5.85762 5.64185 5.63173 4.77883C5.40584 3.91581 5.41373 3.00822 5.6546 2.14926C4.80775 2.38497 4.03743 2.83844 3.42037 3.46451C2.80331 4.09058 2.36105 4.8674 2.13764 5.71758C1.91423 6.56776 1.91747 7.46164 2.14704 8.31019C2.3766 9.15873 2.82448 9.93232 3.44606 10.5539C4.06764 11.1755 4.84123 11.6234 5.68977 11.8529C6.53831 12.0825 7.43219 12.0857 8.28238 11.8623C9.13256 11.6389 9.90937 11.1966 10.5354 10.5796C11.1615 9.96253 11.615 9.19221 11.8507 8.34536Z" stroke="black" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </svg>

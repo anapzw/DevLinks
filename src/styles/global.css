@@ -12,7 +12,7 @@
     --container-color: #232528;
     --formas-color: #f5f5f5;
     --switch-bg-url: url(../assets/moon-stars.svg);
-    --switch-bg-color: #9747FF;
+    --switch-bg-color: #FFFFFF;
     --switch-stroke: #FFFFFF80;
     --switch-color-bg: #FFFFFF1A;
 
@@ -25,7 +25,7 @@
     --container-color: #fff;
     --formas-color: #232528;
     --switch-bg-url: url(../assets/sun.png);
-    --switch-bg-color: #E29016;
+    --switch-bg-color: #232528;
     --switch-stroke: #00000080;
     --switch-color-bg: #0000000D;
 }
